@@ -38,7 +38,7 @@ main{
 .pokemon__data {
   position: absolute;
   top: 54%;
-  left: 40%;
+  left: 35%;
   font-weight: 600;
   color: #aaa;
   font-size: clamp(8px, 5vw, 25px); /*a função clamp permite setar 3 valores: min, default, e max*/
@@ -93,6 +93,6 @@ main{
 }
 
 .btn:active {
-  box-shadow: inset -4px 4px 0 #222;
+  box-shadow: inset -4px 4px 0 #222;/* cria borda interna no elemento quando o botão estiver ativo*/
   font-size: 0.9rem;
 }
